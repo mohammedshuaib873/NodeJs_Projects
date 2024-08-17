@@ -1,0 +1,19 @@
+{
+  "name": "cpu-usage-monitor-api",
+  "version": "1.0.0",
+  "description": "Track CPU Utilization",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.3",
+    "node-cron": "^3.0.3",
+    "os-utils": "^0.0.14",
+    "pm2": "^5.4.2"
+  }
+}
